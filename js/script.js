@@ -4,3 +4,11 @@ $(document).ready(function(){
 
 });
 
+$('.menu__link').hover(
+  function(){
+    $(this).addClass('menu__link--active')
+  },
+  function(){
+    $(this).removeClass('menu__link--active')
+  }
+);
