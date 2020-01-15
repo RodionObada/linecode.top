@@ -426,7 +426,7 @@ li {
 }
 
 .swiper-container {
-  width: 1170px;
+  width: 1150px;
   margin: 0 auto;
   margin-bottom: 116px;
 }
@@ -463,7 +463,7 @@ li {
   background-size: contain;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
   transform: rotate(180deg);
-  right: 19px;
+  right: 0;
 }
 
 .portfolio__slider {
