@@ -92,16 +92,16 @@
 
 
             <div class="swiper-container">
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-              <div class="swiper-wrapper">
 
-                  <div class="swiper-slide"><img src="img/slider/slider1.jpg" alt=""><p class="swiper-slide__description">Сайт психолога Веры Антоновой</p></div>
-                  <div class="swiper-slide"><img src="img/slider/slider2.jpg" alt=""><p class="swiper-slide__description">Сайт магазина детской одежды</p></div>
-                  <div class="swiper-slide"><img src="img/slider/slider3.jpg" alt=""><p class="swiper-slide__description">Сайт магазина «Рыболов»</p></div>
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="img/slider/slider1.jpg" alt=""><p class="swiper-slide__description">Сайт психолога Веры Антоновой</p></div>
+                <div class="swiper-slide"><img src="img/slider/slider2.jpg" alt=""><p class="swiper-slide__description">Сайт магазина детской одежды</p></div>
+                <div class="swiper-slide"><img src="img/slider/slider3.jpg" alt=""><p class="swiper-slide__description">Сайт магазина «Рыболов»</p></div>
               </div>
               <div class="swiper-pagination"></div>
           </div>
+          <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
           <button class="portfolio__button button button--red">Заказать проект</button>
         </div>
 
@@ -169,10 +169,16 @@
       var mySwiper = new Swiper ('.swiper-container', {
         loop: true,
         slidesPerView: 3,
+        spaceBetween: 20,
         navigation: {
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
         },
+  //       pagination: {
+  //   el: '.swiper-pagination',
+  //   type: 'bullets',
+  //   clickable: 'boolean',
+  // },
       })
       </script>
   </body>
