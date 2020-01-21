@@ -89,10 +89,7 @@
       <section class="portfolio">
         <div class="container portfolio__box">
             <h2 class="h h--2">Примеры моих работ</h2>
-
-
             <div class="swiper-container">
-
               <div class="swiper-wrapper">
                 <div class="swiper-slide"><img src="img/slider/slider1.jpg" alt=""><p class="swiper-slide__description">Сайт психолога Веры Антоновой</p></div>
                 <div class="swiper-slide"><img src="img/slider/slider2.jpg" alt=""><p class="swiper-slide__description">Сайт магазина детской одежды</p></div>
@@ -101,7 +98,7 @@
               <div class="swiper-pagination"></div>
           </div>
           <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
+          <div class="swiper-button-next"></div>
           <button class="portfolio__button button button--red">Заказать проект</button>
         </div>
 
@@ -168,17 +165,27 @@
     <script>
       var mySwiper = new Swiper ('.swiper-container', {
         loop: true,
-        slidesPerView: 3,
-        spaceBetween: 20,
+        slidesPerView: 1,
+        spaceBetween: 30,
         navigation: {
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
         },
-  //       pagination: {
-  //   el: '.swiper-pagination',
-  //   type: 'bullets',
-  //   clickable: 'boolean',
-  // },
+        pagination: {
+          el: '.swiper-pagination',
+          type: 'bullets',
+          clickable: true,
+        },
+        breakpoints: {
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+          },
+          1025: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+          },
+        },
       })
       </script>
   </body>
