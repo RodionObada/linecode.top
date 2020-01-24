@@ -417,6 +417,11 @@ li {
   margin-bottom: 102px;
   padding-top: 95px;
 }
+
+.portfolio__box h2 {
+  margin-bottom: 103px;
+}
+
 .portfolio__title {
   font-size: 54px;
   font-weight: 700;
@@ -445,12 +450,17 @@ li {
   margin-bottom: 70px;
 }
 
+.swiper-slide {
+  margin-bottom: 24px;
+}
+
 .swiper-slide__description {
   text-align: center;
   color: #8993ad;
   font-size: 20px;
   font-weight: 500;
-  line-height: 59.73px;
+  margin-top: 32px;
+  /* line-height: 85.73px; */
 }
 
 .swiper-button-next::after, .swiper-button-prev::after {
@@ -458,6 +468,7 @@ li {
 }
 
 .swiper-button-prev, .swiper-button-next {
+  top: 52%;
   width: 61px;
   height: 61px;
   outline: none;
@@ -469,12 +480,12 @@ li {
 }
 
 .swiper-button-prev {
-  left: -20px;
+  left: -31px;
 }
 
 .swiper-button-next {
   transform: rotate(180deg);
-  right: -20px;
+  right: -31px;
 }
 /* стили слайдера */
 
@@ -786,7 +797,7 @@ li {
     display: block;
   }
   .swiper-container {
-    height: 390px;
+    height: 460px;
     width: 947px;
   }
 }
