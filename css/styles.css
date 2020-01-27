@@ -966,6 +966,18 @@ li {
   .header__tel {
     font-size: 20px;
   }
+
+  .swiper-container {
+    height: 500px;
+  }
+
+  .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+  }
+  .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 8px;
+  }
 }
 
 @media (max-width: 575px) {
@@ -981,6 +993,10 @@ li {
   .hero__info {
     margin-top: 20px;
   }
+
+  .portfolio__box h2 {
+    margin-bottom: 20px;
+}
 
   .h--1 {
     font-size: 30px;
@@ -1008,6 +1024,10 @@ li {
     outline: none;
     background: url("../img/icons/call-icons.png") no-repeat center;
   }
+
+  .swiper-container {
+    height: 460px;
+}
 }
 @media (max-width: 480px) {
 
