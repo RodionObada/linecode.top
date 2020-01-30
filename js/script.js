@@ -12,3 +12,12 @@ $('.menu__link').hover(
     $(this).removeClass('menu__link--active')
   }
 );
+
+$(function(){
+	$('.header__burger-menu').click(function(e){
+		e.preventDefault();
+		$(this).toggleClass('header__burger-menu--close');
+
+		$('.menu').toggle(200);
+	});
+});
