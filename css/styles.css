@@ -221,6 +221,12 @@ li {
   margin-bottom: 45px;
 }
 
+.hero__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .button--red {
   background-color: #ff4e2e;
   border: 0;
@@ -750,6 +756,7 @@ li {
   }
 
   .header__burger-menu {
+    z-index: 9999;
     display: block;
   }
   .container {
@@ -958,6 +965,8 @@ li {
   }
 
   .hero__info {
+    display: flex;
+    flex-direction: column;
     padding-top: 0;
     text-align: center;
     margin-bottom: 20px;
@@ -968,6 +977,7 @@ li {
   }
 
   .hero__button {
+    align-self: center;
     margin-bottom: 40px;;
   }
 
