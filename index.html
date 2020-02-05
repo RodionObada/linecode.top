@@ -11,6 +11,24 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
+    <div class="popup-container">
+      <div class="popup">
+        <h1 class="popup__title">Заполните форму</h1>
+        <form action="mailto:r.obada@mail.ru" method="POST">
+          <label class="label" for="username-field">
+            Введите имя<br>
+            <input id="username-field" class="input-field" type="text" name="username" required="required">
+          </label>
+          <label class="label">Телефон<br>
+            <input class="input-field" type="tel" name="tel" placeholder="+7 (999) 888 70-60" required="required">
+          </label>
+          <label class="label"> Электронная почта<br>
+            <input class="input-field" type="email" name="mail" required="required">
+          </label>
+          <input class="form-button" type="submit" value="Отправить" name="Отправить">
+        </form>
+      </div>
+    </div>
     <!-- header -->
     <header class="header">
       <div class="container header__wrapper">
@@ -30,7 +48,7 @@
         </nav>
         <p class="header__contact">
           <a class="header__tel" href="tel:+7(950)815-80-10">+7 (950) 815-80-10</a>
-          <button class="header__button button button--transparent header__button--icon">Заказать звонок</button>
+          <button class="header__button button button--transparent header__button--icon popup-button">Заказать звонок</button>
         </p>
       </div>
     </header>
@@ -85,7 +103,7 @@
                 </li>
               </ul>
 
-            <button class="skills__button button button--red">Узнать стоимость</button>
+            <button class="skills__button button button--red popup-button">Узнать стоимость</button>
         </div>
       </section>
 <!-- примеры работ -->
@@ -126,7 +144,7 @@
           </div>
           <div class="swiper-button-prev"></div>
           <div class="swiper-button-next"></div>
-          <button class="portfolio__button button button--red">Заказать проект</button>
+          <button class="portfolio__button button button--red popup-button">Заказать проект</button>
         </div>
 
       </section>
@@ -172,7 +190,7 @@
           </li>
         </ul>
         <div class="footer__social-box">
-        <button class="social-icons__button button--transparent">Заказать звонок</button>
+        <button class="social-icons__button button button--transparent popup-button">Заказать звонок</button>
           <ul class="footer__social social-icons">
             <li class="social-icons__item"><a class="social-icons__link social-icons__link--vk" href="#"></a></li>
             <li class="social-icons__item"><a class="social-icons__link social-icons__link--facebook  " href="#"></a></li>
