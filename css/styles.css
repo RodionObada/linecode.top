@@ -1074,6 +1074,21 @@ li {
     margin: 0 8px;
   }
 
+  .footer__menu {
+    margin-bottom: 50px;
+    margin-right: 153px;
+  }
+
+  .footer__contacts {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 24px;
+  }
+
+  .footer__contacts .contacts__item:first-child {
+    margin-bottom: 24px;
+  }
+
 }
 
 @media (max-width: 575px) {
@@ -1194,20 +1209,6 @@ li {
 
   .footer {
     padding-top: 50px;;
-  }
-
-  .footer__menu {
-    margin-bottom: 50px;
-  }
-
-  .footer__contacts {
-    margin-top: 0;
-    margin-right: 0;
-    margin-bottom: 24px;
-  }
-
-  .footer__contacts .contacts__item:first-child {
-    margin-bottom: 24px;
   }
 
   .footer__social {
