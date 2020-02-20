@@ -750,12 +750,19 @@ li {
   background: url("../img/sprites.png") no-repeat center left -156px;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1240px) {
 
   .container {
     padding-left: 20px;
     padding-right: 20px;
   }
+
+  .swiper-container {
+    height: 540px;
+    width: 100%;
+    margin-bottom: 86px;
+    text-align: center;
+}
 
 }
 
@@ -835,7 +842,6 @@ li {
   .h--1 {
     color: #1f1f24;
     font-size: 54px;
-    font-weight: 400;
     margin-bottom: 0;
   }
   .hero__subtitle {
