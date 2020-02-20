@@ -750,6 +750,15 @@ li {
   background: url("../img/sprites.png") no-repeat center left -156px;
 }
 
+@media screen and (max-width: 1200px) {
+
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+}
+
 @media screen and (max-width: 1024px) {
 
   .fly-elements--active .fly-elements__item--1 {
@@ -1360,7 +1369,7 @@ li {
     font-weight: 700;
     white-space: pre;
   }
-  
+
   .price__desc {
     font-size: 15px;
     white-space: pre;
