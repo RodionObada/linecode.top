@@ -762,7 +762,19 @@ li {
     width: 100%;
     margin-bottom: 86px;
     text-align: center;
-}
+  }
+
+  .swiper-button-prev, .swiper-button-next {
+    top: 45%;
+  }
+
+  .swiper-button-prev {
+    left: 37px;
+  }
+
+  .swiper-button-next {
+    right: 37px;
+  }
 
 }
 
