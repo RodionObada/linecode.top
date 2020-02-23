@@ -905,18 +905,13 @@ li {
   .swiper-pagination {
     display: block;
   }
-  .swiper-container {
-    height: 540px;
-    width: 100%;
-    margin-bottom: 86px;
-    text-align: center;
-  }
 
   .swiper-slide__description {
     font-size: 25px;
     font-weight: 500;
     margin-top: 15px;
   }
+
   .swiper-pagination-bullet {
     width: 18px;
     height: 18px;
@@ -948,6 +943,7 @@ li {
   .price .fly-elements--active .fly-elements__item--5 {
     display: none;
   }
+
 }
 
 @media (max-width: 930px) {
@@ -972,6 +968,7 @@ li {
   .hero__subtitle {
     font-size: 21px;
   }
+  
 }
 
 @media (max-width: 768px) {
