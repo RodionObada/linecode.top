@@ -58,6 +58,11 @@ var mySwiper = new Swiper ('.swiper-container', {
   loop: true,
   slidesPerView: 1,
   spaceBetween: 30,
+  a11y: {
+    prevSlideMessage: 'Предыдущий слайд',
+    nextSlideMessage: 'Следующий слайд',
+    paginationBulletMessage: 'Перейти к слайду {{index}}'
+  },
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
