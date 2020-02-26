@@ -54,33 +54,31 @@ $(function () {
 	});
 });
 
-var mySwiper = new Swiper ('.swiper-container', {
-  loop: true,
+new Swiper('.slider', {
   slidesPerView: 1,
-  spaceBetween: 30,
-  a11y: {
-    prevSlideMessage: 'Предыдущий слайд',
-    nextSlideMessage: 'Следующий слайд',
-    paginationBulletMessage: 'Перейти к слайду {{index}}'
-  },
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-    },
-  pagination: {
-    el: '.swiper-pagination',
-    type: 'bullets',
-    clickable: true,
-    },
+  spaceBetween: 20,
   breakpoints: {
     768: {
-    slidesPerView: 2,
-    spaceBetween: 30,
+      slidesPerView: 2
     },
-    1240: {
+    1024: {
       slidesPerView: 3,
       spaceBetween: 30,
-      },
     },
+  },
+  loop: true,
+  wrapperClass: 'slider__list',
+  slideClass: 'slider__item',
+  pagination: {
+    el: '.slider__pagination',
+    type: 'bullets',
+    bulletClass: 'paginator__item',
+    bulletActiveClass: 'paginator__item--active',
+    clickable: true
+  },
+  navigation: {
+    nextEl: '.slider__button--next',
+    prevEl: '.slider__button--prev',
+  },
 });
 
