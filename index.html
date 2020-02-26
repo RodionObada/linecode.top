@@ -116,9 +116,38 @@
       </section>
 <!-- примеры работ -->
       <section class="portfolio">
-        <div class="container portfolio__box">
+        <div class="portfolio__box container">
             <h2 class="h h--2">Примеры моих работ</h2>
-            <div class="swiper-container">
+            <section class="slider slider__container">
+              <ul class="slider__list">
+                <li class="slider__item">
+                  <img src="img/slider/baby-medium.jpg" alt="Интернет-магазин детской одежды">
+                  <p class="slider__description">Сайт магазина детской одежды </p>
+                </li>
+                <li class="slider__item">
+                  <img src="img/slider/psyho-medium.jpg" alt="Сайт психолога Веры Антоновой">
+                  <p class="slider__description">Сайт психолога Веры Антоновой</p>
+                </li>
+                <li class="slider__item">
+                  <img src="img/slider/fisherman-medium.jpg" alt="Сайт магазина рыболов">
+                  <p class="slider__description">Сайт магазина «Рыболов»</p>
+                </li>
+              </ul>
+              <div
+                class="slider__pagination paginator"
+                aria-hidden="true"
+              ></div>
+            </section>
+            <button
+                class="slider__button slider__button--prev"
+                aria-label="Предыдущий слайд"
+              ></button>
+
+              <button
+                class="slider__button slider__button--next"
+                aria-label="Следующий слайд"
+              ></button>
+            <!-- <div class="swiper-container">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
                   <picture class="swiper-slide__picture">
@@ -151,7 +180,7 @@
               <div class="swiper-pagination"></div>
           </div>
           <button class="swiper-button-prev"></button>
-          <button class="swiper-button-next"></button>
+          <button class="swiper-button-next"></button> -->
           <button class="portfolio__button button button--red popup-button">Заказать проект</button>
         </div>
 
