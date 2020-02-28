@@ -135,9 +135,7 @@ li {
   max-width: 1170px;
   margin: 0 auto;
 }
-
 /* заголовки  */
-
 .h {
   margin-top: 0;
 }
@@ -214,8 +212,6 @@ li {
   transform: translateX(-50%);
   left: 50%;
 }
-
-
 /* конец блока для меню */
 .header__contact {
   display: flex;
@@ -247,8 +243,6 @@ li {
   font-size: 16px;
   font-weight: 400;
 }
-
-
 /*first block*/
 .hero {
   position: relative;
@@ -293,7 +287,6 @@ li {
 }
 
 .photo-wrapper {
-  /* border: 2px solid black; */
   position: absolute;
   z-index: -1;
   right: -489px;
@@ -304,7 +297,6 @@ li {
   background-size: auto 771px;
 }
 
-
 .photo {
   position: absolute;
   left: 240px;
@@ -313,7 +305,6 @@ li {
   object-fit: contain;
 }
 /*hero fly element */
-
 /* Общие стили для элементов */
 .fly-elements {
   position: absolute;
@@ -519,7 +510,6 @@ li {
   font-size: 20px;
   font-weight: 500;
   margin-top: 32px;
-  /* line-height: 85.73px; */
 }
 
 .swiper-button-next::after, .swiper-button-prev::after {
@@ -645,11 +635,13 @@ li {
   line-height: 60px;
   margin: 0 0 30px 0;
 }
+
 .price__desc {
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
 }
+
 .price__title,
 .price__desc {
   color: #fff;
@@ -750,14 +742,14 @@ li {
   background: url("../img/sprites.png") no-repeat center left -156px;
 }
 
-@media screen and (max-width: 1240px) {
+@media (max-width: 1240px) {
   .container {
     padding-left: 20px;
     padding-right: 20px;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .fly-elements--active .fly-elements__item--1 {
       transform: translate(-435px, 190px) rotate(30deg);
   }
@@ -785,6 +777,7 @@ li {
   .header__wrapper {
     padding: 30px 0;
   }
+
   .header__menu {
     display: none;
   }
@@ -809,14 +802,17 @@ li {
     z-index: 9999;
     display: block;
   }
+
   .container {
     padding-left: 40px;
     padding-right: 40px;
   }
+
   .button--red {
     height: 68px;
     width: 320px;
   }
+
   .hero {
     height: 664px;
   }
@@ -834,6 +830,7 @@ li {
     font-size: 54px;
     margin-bottom: 0;
   }
+
   .hero__subtitle {
     margin-bottom: 47px;
   }
@@ -924,7 +921,6 @@ li {
   .price .fly-elements--active .fly-elements__item--5 {
     display: none;
   }
-
 }
 
 @media (max-width: 930px) {
@@ -949,7 +945,6 @@ li {
   .hero__subtitle {
     font-size: 21px;
   }
-
 }
 
 @media (max-width: 768px) {
@@ -988,7 +983,6 @@ li {
   .price .fly-elements--active .fly-elements__item--5 {
     display: none;
   }
-
 
   body {
     background-color: #fff;
@@ -1076,7 +1070,6 @@ li {
   .footer__contacts .contacts__item:first-child {
     margin-bottom: 24px;
   }
-
 }
 
 @media (max-width: 575px) {
@@ -1130,11 +1123,9 @@ li {
     width: 180px;
     left: 65px;
   }
-
 }
 
 @media (max-width: 480px) {
-
   .fly-elements--active .fly-elements__item--1 {
     transform: translate(-115px, 126px) rotate(30deg);
     font-size: 30px;
@@ -1174,7 +1165,6 @@ li {
     left: -50px;
     background-position: bottom -100px right -70px;
     background-size: auto 450px;
-    /* padding-left: 50px; */
   }
 
   .photo {
@@ -1207,7 +1197,6 @@ li {
     color: #fff;
     border: none;
   }
-
 }
 
 @media (max-width: 320px) {
@@ -1262,7 +1251,7 @@ li {
   .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
     margin: 0 8px;
   }
-  /* стили слайдера */
+  /* стили слайдера конец*/
 
   .header__wrapper {
     padding-top: 27px;
@@ -1381,7 +1370,7 @@ li {
 
   .portfolio__box h2 {
     margin-bottom: 2px;
-}
+  }
 
   .portfolio__slider {
     margin-bottom: 85px;
@@ -1419,7 +1408,6 @@ li {
     margin-bottom: 17px;
   }
 
-
   .footer__copyright {
     padding: 19px 0;
     font-size: 12px;
@@ -1433,12 +1421,6 @@ li {
   br {
     display: none;
   }
-}
-
-.slider__container {
-    width: 1170px;
-    margin: 0 auto;
-    margin-bottom: 70px;
 }
 
 @media (max-width: 767.9px) {
@@ -1465,11 +1447,11 @@ li {
   overflow-x: hidden;
 }
 
-@media (min-width: 1024px) {
-  /* .slider {
+/* @media (min-width: 1024px) {
+  .slider {
     padding: 40px ;
-  } */
-}
+  }
+} */
 
 /* .slider__overflow {
   overflow-x: hidden;
