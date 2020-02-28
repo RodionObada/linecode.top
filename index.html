@@ -1,42 +1,40 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <title>Дипломный проект</title>
+<head>
+  <title>Дипломный проект</title>
 
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
-    <link rel="stylesheet" href="slider/swiper.min.css">
-    <link rel="stylesheet" href="css/styles.css"/>
-
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="stylesheet" href="slider/swiper.min.css">
+  <link rel="stylesheet" href="css/styles.css"/>
     <!-- скрипты -->
-    <script src="https://kit.fontawesome.com/8a6db0bcf4.js" defer></script>
-    <script src="js/jquery-3.4.1.min.js" defer></script>
-    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
-    <script src="js/script.js" defer></script>
-
-    <!-- <script src="slider/swiper.js" defer></script> -->
-  </head>
-  <body>
-    <div class="popup-container">
-      <div class="popup">
-        <h2 class="popup__title">Заполните форму</h2>
-        <form action="mailto:r.obada@mail.ru" method="POST">
-          <label class="label" for="username-field">
-            Введите имя<br>
-            <input id="username-field" class="input-field" type="text" name="username" required="required">
-          </label>
-          <label class="label">Телефон<br>
-            <input class="input-field" type="tel" name="tel" placeholder="+7 (999) 888 70-60" required="required">
-          </label>
-          <label class="label"> Электронная почта<br>
-            <input class="input-field" type="email" name="mail" required="required">
-          </label>
+  <script src="https://kit.fontawesome.com/8a6db0bcf4.js" defer></script>
+  <script src="js/jquery-3.4.1.min.js" defer></script>
+  <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <div class="popup-container">
+    <div class="popup">
+    <h2 class="popup__title">Заполните форму</h2>
+      <form action="mailto:r.obada@mail.ru" method="POST">
+        <label class="label" for="username-field">
+          Введите имя
+          <br>
+          <input id="username-field" class="input-field" type="text" name="username" required="required">
+        </label>
+        <label class="label">Телефон<br>
+          <input class="input-field" type="tel" name="tel" placeholder="+7 (999) 888 70-60" required="required">
+        </label>
+        <label class="label"> Электронная почта<br>
+          <input class="input-field" type="email" name="mail" required="required">
+        </label>
           <input class="form-button" type="submit" value="Отправить" name="Отправить">
-        </form>
-      </div>
+      </form>
     </div>
+  </div>
     <!-- header -->
     <header class="header">
       <div class="container header__wrapper">
@@ -82,9 +80,7 @@
           <button type="submit" class="hero__button button button--red">Узнать больше</button>
         </form> -->
       </div>
-
     </section>
-
     <main class="main">
 <!-- блок преимуществ  -->
       <section id="skills" class="skills">
@@ -140,47 +136,13 @@
             </section>
             <button
                 class="slider__button slider__button--prev"
-                aria-label="Предыдущий слайд"
-              ></button>
+                aria-label="Предыдущий слайд">
+              </button>
 
               <button
                 class="slider__button slider__button--next"
-                aria-label="Следующий слайд"
-              ></button>
-            <!-- <div class="swiper-container">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <picture class="swiper-slide__picture">
-                    <source srcset="img/slider/psyho-small.jpg" media="(max-width: 360px)">
-                    <source srcset="img/slider/psyho-medium.jpg" media="(max-width: 1240px)">
-                    <source srcset="img/slider/psyho-full.jpg">
-                    <img src="img/slider/psyho-full.jpg" alt="Сайт психолога">
-                  </picture>
-                  <p class="swiper-slide__description">Сайт психолога Веры Антоновой</p>
-                </div>
-                <div class="swiper-slide">
-                  <picture class="swiper-slide__picture">
-                    <source srcset="img/slider/baby-small.jpg" media="(max-width: 360px)">
-                    <source srcset="img/slider/baby-medium.jpg" media="(max-width: 1240px)">
-                    <source srcset="img/slider/baby-full.jpg">
-                    <img src="img/slider/baby-full.jpg" alt="Сайт психолога">
-                  </picture>
-                  <p class="swiper-slide__description">Сайт магазина детской одежды</p>
-                </div>
-                <div class="swiper-slide">
-                  <picture class="swiper-slide__picture">
-                    <source srcset="img/slider/fisherman-small.jpg" media="(max-width: 360px)">
-                    <source srcset="img/slider/fisherman-medium.jpg" media="(max-width: 1240px)">
-                    <source srcset="img/slider/fisherman-full.jpg">
-                    <img src="img/slider/fisherman-full.jpg" alt="Сайт психолога">
-                  </picture>
-                  <p class="swiper-slide__description">Сайт магазина «Рыболов»</p>
-                </div>
-              </div>
-              <div class="swiper-pagination"></div>
-          </div>
-          <button class="swiper-button-prev"></button>
-          <button class="swiper-button-next"></button> -->
+                aria-label="Следующий слайд">
+              </button>
           <button class="portfolio__button button button--red popup-button">Заказать проект</button>
         </div>
 
@@ -235,9 +197,8 @@
             <li class="social-icons__item"><a class="social-icons__link social-icons__link--instagram" href="#"></a></li>
           </ul>
         </div>
-
       </div>
       <p class="footer__copyright">&copy; Обада Родион, 2018 – 2019</p>
     </footer>
-  </body>
+</body>
 </html>
