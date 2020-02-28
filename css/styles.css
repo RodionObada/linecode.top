@@ -871,6 +871,7 @@ li {
   }
 
   .skills__list {
+    justify-content: center;
     max-width: 650px;
     margin-bottom: 0px;
   }
@@ -1110,10 +1111,6 @@ li {
 
   .skills {
     margin-top: 40px;
-  }
-
-  .skills__list {
-    justify-content: center;
   }
 
   .header__button--icon {
@@ -1456,7 +1453,7 @@ li {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1000px) {
   .slider__container {
     width: 100%;
   }
@@ -1502,6 +1499,7 @@ li {
   outline: none;
   border-radius: 50%;
   border: none;
+  cursor: pointer;
   background: url('../img/icons/arrow.png') no-repeat center;
   background-size: contain;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
@@ -1526,7 +1524,7 @@ li {
   }
 }
 
-@media (max-width: 1023.9px) {
+@media (max-width: 1025px) {
   .slider__button {
     display: none;
   }
@@ -1538,27 +1536,26 @@ li {
 }
 
 .paginator__item {
-  border: 1px solid #000;
+  background-color: #ebebeb;
   flex-shrink: 0;
-  width: 20px;
-  height: 20px;
+  width: 12px;
+  height: 12px;
   border-radius: 50%;
 }
 
 .paginator__item--active {
-  border-color: #3366ff;
-  background-color: #3366ff;
+  background-color: #ff4e2e;
 }
 
 .paginator__item:not(:last-child) {
-  margin-right: 5px;
+  margin-right: 8px;
 }
 
 .slider__pagination {
   margin-top: 10px;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
   .slider__pagination {
     display: none;
   }
