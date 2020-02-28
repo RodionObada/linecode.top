@@ -61,7 +61,7 @@ new Swiper('.slider', {
     768: {
       slidesPerView: 2
     },
-    1024: {
+    1025: {
       slidesPerView: 3,
       spaceBetween: 30,
     },
