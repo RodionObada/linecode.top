@@ -1171,7 +1171,7 @@ li {
   }
 
   .photo {
-    left: 30px;
+    left: 25%;
     height: 91%;
   }
 
@@ -1298,7 +1298,7 @@ li {
 
   .photo {
     height: 89%;
-    margin-left: 29px;
+    left: 17%;
   }
 
   .skills {
