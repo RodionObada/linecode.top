@@ -59,7 +59,8 @@ new Swiper('.slider', {
   spaceBetween: 20,
   breakpoints: {
     768: {
-      slidesPerView: 2
+      slidesPerView: 2,
+      spaceBetween: 35,
     },
     1025: {
       slidesPerView: 3,
@@ -75,6 +76,11 @@ new Swiper('.slider', {
     bulletClass: 'paginator__item',
     bulletActiveClass: 'paginator__item--active',
     clickable: true
+  },
+  a11y: {
+    prevSlideMessage: 'Предыдущий слайд',
+    nextSlideMessage: 'Следующий слайд',
+    paginationBulletMessage: 'Перейти к слайду {{index}}'
   },
   navigation: {
     nextEl: '.slider__button--next',
