@@ -675,7 +675,7 @@ li {
   background-color: #fff;
 }
 
-.footer-wrapper {
+.footer__wrapper {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -1396,7 +1396,7 @@ li {
     font-weight: 400;
   }
 
-  .footer-wrapper {
+  .footer__wrapper {
     padding-bottom: 51px;
   }
 
