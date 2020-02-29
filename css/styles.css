@@ -1200,6 +1200,13 @@ li {
     color: #fff;
     border: none;
   }
+
+  .price__title {
+    margin-bottom: 33px;
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 700;
+  }
 }
 
 @media (max-width: 320px) {
@@ -1329,17 +1336,9 @@ li {
     background: linear-gradient(to bottom, #ff2f96, #ff8f5a);
   }
 
-  .price__title {
-    margin-bottom: -7px;
-    font-size: 28px;
-    line-height: 40px;
-    font-weight: 700;
-    white-space: pre;
-  }
-
   .price__desc {
     font-size: 15px;
-    white-space: pre;
+    /* white-space: pre; */
   }
 
   .button--red {
@@ -1347,7 +1346,7 @@ li {
   }
 
   .price-container {
-    padding: 40px 20px 13px 20px;
+    padding: 40px 20px 42px 20px;
   }
 
   .portfolio__box {
@@ -1361,7 +1360,7 @@ li {
 
   .price__container {
     padding-top: 41px;
-    padding-bottom: 12px;
+    padding-bottom: 42px;
   }
 
   .footer {
