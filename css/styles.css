@@ -553,10 +553,12 @@ li {
   width: 18px;
   height: 18px;
   border-radius: 50%;
+  outline: none;
 }
 
 .paginator__item--active {
   background-color: #ff4e2e;
+  outline: none;
 }
 
 .paginator__item:not(:last-child) {
