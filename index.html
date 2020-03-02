@@ -15,25 +15,7 @@
   <script src="js/script.js" defer></script>
 </head>
 <body>
-  <div class="popup-container">
-    <div class="popup">
-    <h2 class="popup__title">Заполните форму</h2>
-      <form action="mailto:r.obada@mail.ru" method="POST">
-        <label class="label" for="username-field">
-          Введите имя
-          <br>
-          <input id="username-field" class="input-field" type="text" name="username" required="required">
-        </label>
-        <label class="label">Телефон<br>
-          <input class="input-field" type="tel" name="tel" placeholder="+7 (999) 888 70-60" required="required">
-        </label>
-        <label class="label"> Электронная почта<br>
-          <input class="input-field" type="email" name="mail" required="required">
-        </label>
-          <input class="form-button" type="submit" value="Отправить" name="Отправить">
-      </form>
-    </div>
-  </div>
+
     <!-- header -->
   <header class="header">
     <div class="container header__wrapper">
@@ -53,7 +35,7 @@
       </nav>
       <p class="header__contact">
         <a class="header__tel" href="tel:+7(950)815-80-10">+7 (950) 815-80-10</a>
-        <button class="header__button button button--transparent header__button--icon popup-button">Заказать звонок</button>
+        <button class="popup__button header__button button button--transparent header__button--icon">Заказать звонок</button>
       </p>
     </div>
   </header>
@@ -99,7 +81,7 @@
           существующей вёрстки
         </li>
       </ul>
-      <button class="skills__button button button--red popup-button">Узнать стоимость</button>
+      <button class="skills__button button button--red popup__button">Узнать стоимость</button>
     </div>
   </section>
 <!-- примеры работ -->
@@ -131,7 +113,7 @@
         class="slider__button slider__button--next"
         aria-label="Следующий слайд">
       </button>
-      <button class="portfolio__button button button--red popup-button">Узнать стоимость</button>
+      <button class="portfolio__button button button--red popup__button">Узнать стоимость</button>
     </div>
   </section>
 <!-- блок минимальной цены -->
@@ -168,7 +150,7 @@
         </li>
       </ul>
       <div class="footer__social-box">
-      <button class="social-icons__button button button--transparent popup-button">Заказать звонок</button>
+      <button class="social-icons__button button button--transparent popup__button">Заказать звонок</button>
         <ul class="footer__social social-icons">
           <li class="social-icons__item"><a class="social-icons__link social-icons__link--vk" href="#"></a></li>
           <li class="social-icons__item"><a class="social-icons__link social-icons__link--facebook" href="#"></a></li>
@@ -180,4 +162,21 @@
     <p class="footer__copyright">&copy; Обада Родион, 2018 – 2019</p>
   </footer>
 </body>
+<div class="popup">
+  <div class="popup__form">
+    <h2 class="popup__title">Заполните форму</h2>
+      <form action="mailto:r.obada@mail.ru" method="POST">
+        <label class="popup__label">Введите имя<br>
+          <input class="popup__input-field" type="text" name="username" required="required">
+        </label>
+        <label class="popup__label">Телефон<br>
+          <input class="popup__input-field" type="tel" name="tel" placeholder="+7 (999) 888 70-60" required="required">
+        </label>
+        <label class="popup__label">Электронная почта<br>
+          <input class="popup__input-field" type="email" name="mail" required="required">
+        </label>
+          <input class="popup__form-button" type="submit" value="Отправить"">
+      </form>
+  </div>
+</div>
 </html>
