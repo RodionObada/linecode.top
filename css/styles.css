@@ -98,8 +98,8 @@ li {
 }
 
 .popup__form {
-	width: 0;
-	height: 0;
+	width: 370px;
+	height: 430px;
 	background: white;
 	padding: 30px;
   margin: 40px auto;
@@ -129,14 +129,10 @@ li {
   margin-bottom: 30px;
 }
 
-.popup__form-button {
-  background: #FF4E2E;
-  color: #fff;
-  border: none;
+.popup__form form .popup__form-button {
   height: 30px;
   width: 120px;
-  cursor: pointer;
-  outline: none;
+  font-size: 14px;
 }
 
 .container {
@@ -1252,7 +1248,7 @@ li {
   .slider__description {
     font-size: 18px;
     font-weight: 500;
-    line-height: 51.63px;
+    line-height: 52;
     margin-top: 0;
   }
   /* стили слайдера конец*/
