@@ -748,6 +748,10 @@ li {
   -webkit-text-fill-color: transparent;
 }
 
+.social-icons__item:not(:last-child) {
+  margin-right: 20px;
+}
+
 .social-icons__link{
   display: block;
   height: 28px;
@@ -756,15 +760,12 @@ li {
 
 .social-icons__link--vk {
   background: url("../img/sprites.png") no-repeat center left -6px;
-  margin-right: 16px;
 }
 .social-icons__link--facebook {
   background: url("../img/sprites.png") no-repeat center left -55px;
-  margin-right: 17px;
 }
 .social-icons__link--twitter {
   background: url("../img/sprites.png") no-repeat center left -105px;
-  margin-right: 22px;
 }
 .social-icons__link--instagram {
   background: url("../img/sprites.png") no-repeat center left -156px;
