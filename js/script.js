@@ -48,12 +48,12 @@ new Swiper('.slider', {
     type: 'bullets',
     bulletClass: 'paginator__item',
     bulletActiveClass: 'paginator__item--active',
-    clickable: true
+    clickable: true,
   },
   a11y: {
     prevSlideMessage: 'Предыдущий слайд',
     nextSlideMessage: 'Следующий слайд',
-    paginationBulletMessage: 'Перейти к слайду {{index}}'
+    paginationBulletMessage: 'Перейти к слайду {{index}}',
   },
   navigation: {
     nextEl: '.slider__button--next',
