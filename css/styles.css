@@ -261,7 +261,7 @@ li {
 .hero__subtitle {
   color: #8993ad;
   font-size: 25px;
-  margin-bottom: 45px;
+  margin-bottom: 44px;
 }
 
 .hero__button {
@@ -775,6 +775,16 @@ li {
     padding-left: 40px;
     padding-right: 40px;
   }
+
+  .skills__list {
+    justify-content: center;
+    max-width: 650px;
+    margin-bottom: 29px;
+  }
+
+  .skills__item {
+    margin-bottom: 65px;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -898,16 +908,6 @@ li {
 
   .footer__social {
     margin-right: 0;
-  }
-
-  .skills__list {
-    justify-content: center;
-    max-width: 650px;
-    margin-bottom: 29px;
-  }
-
-  .skills__item {
-    margin-bottom: 65px;
   }
 
   .slider__description {
@@ -1248,7 +1248,7 @@ li {
   .slider__description {
     font-size: 18px;
     font-weight: 500;
-    line-height: 52;
+    line-height: 52px;
     margin-top: 0;
   }
   /* стили слайдера конец*/
