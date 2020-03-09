@@ -99,7 +99,6 @@ li {
 
 .popup__form {
 	width: 370px;
-	height: 430px;
 	background: white;
 	padding: 30px;
   margin: 40px auto;
@@ -113,10 +112,11 @@ li {
 }
 
 .popup__label {
+  display: block;
   color: #C1C1C1;
   font-size: 12px;
   font-weight: 400;
-  margin-bottom: 5px;
+  margin-bottom: 30px;
 }
 
 .popup__input-field {
@@ -126,7 +126,6 @@ li {
   height: 30px;
   font-weight: 400;
   outline: none;
-  margin-bottom: 30px;
 }
 
 .popup__form form .popup__form-button {
@@ -294,7 +293,7 @@ li {
   position: absolute;
   z-index: -1;
   right: -489px;
-  top: 0;
+  bottom: 0;
   height: 100%;
   width: 100%;
   background: url("../img/ellipsnewbig.svg") no-repeat right 0 bottom -143px;
