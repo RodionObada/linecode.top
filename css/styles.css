@@ -255,7 +255,7 @@ li {
 
 @media (min-width: 930px) {
   .hero {
-    height: calc(100vh - 103px);
+    height: 100vh;
   }
 }
 
@@ -1121,6 +1121,10 @@ li {
     background: url("../img/icons/call-icons.png") no-repeat center;
   }
 
+  .header__tel {
+    margin-right: 110px;
+  }
+
   .menu__list {
     width: 180px;
     left: 65px;
@@ -1169,6 +1173,10 @@ li {
     background-size: contain;
     width: 24px;
     height: 18px;
+  }
+
+  .header__tel {
+    margin-right: 65px;
   }
 
   .photo-wrapper {
@@ -1227,6 +1235,11 @@ li {
 
   .header__contact {
     z-index: 2000;
+  }
+}
+@media (max-width: 370px) {
+  .header__tel {
+    margin-right: 35px;
   }
 }
 
