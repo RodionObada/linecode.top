@@ -249,8 +249,14 @@ li {
 /*first block*/
 .hero {
   position: relative;
-  height: 665px;
   width: 100%;
+
+}
+
+@media (min-width: 930px) {
+  .hero {
+    height: calc(100vh - 103px);
+  }
 }
 
 .hero__info {
@@ -851,10 +857,6 @@ li {
     width: 320px;
   }
 
-  .hero {
-    height: 664px;
-  }
-
   .hero__info {
     padding-top: 186px;
   }
@@ -1213,6 +1215,19 @@ li {
     line-height: 40px;
     font-weight: 700;
   }
+
+  .menu__list {
+    width: 100%;
+    left: 0;
+    top: 0;
+    padding-left: 50px;
+    padding-top: 61px;
+    text-align: center;
+  }
+
+  .header__contact {
+    z-index: 2000;
+  }
 }
 
 @media (max-width: 320px) {
@@ -1242,6 +1257,10 @@ li {
 
   .fly-elements--active .fly-elements__item--6 {
     display: none;
+  }
+
+  .menu__list {
+    width: 320px;
   }
 
   /* стили слайдера */
@@ -1291,12 +1310,6 @@ li {
     font-size: 30px;
     line-height: 35px;
     margin-bottom: 0;
-  }
-
-  .menu__list {
-    width: 320px;
-    left: 0;
-    top: 65px;
   }
 
   .photo-wrapper {
