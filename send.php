@@ -21,7 +21,7 @@ try {
     $mail->Username   = 'rodionobada@gmail.com'; // Логин на почте
     $mail->Password   = 'zareka5!'; // Пароль на почте
     $mail->SMTPSecure = 'ssl';
-    $mail->Port       = 465;
+    $mail->Port       = 587;
     $mail->setFrom('rodionobada@gmail.com', 'Rodion'); // Адрес самой почты и имя отправителя
 
     // Получатель письма
