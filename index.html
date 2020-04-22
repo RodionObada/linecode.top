@@ -165,17 +165,17 @@
 <div class="popup">
   <div class="popup__form">
     <h2 class="popup__title">Заполните форму</h2>
-      <form action="mailto:r.obada@mail.ru" method="POST">
+      <form action="send.php" method="POST">
         <label class="popup__label">Введите имя
           <input class="popup__input-field" type="text" name="username" required="required">
         </label>
         <label class="popup__label">Телефон
-          <input class="popup__input-field" type="tel" name="tel" placeholder="+7 (999) 888 70-60" required="required">
+          <input class="popup__input-field" type="phone" name="phone" placeholder="+7 (999) 888 70-60" required="required">
         </label>
         <label class="popup__label">Электронная почта
           <input class="popup__input-field" type="email" name="mail" required="required">
         </label>
-          <button class="button button--red popup__form-button">Отправить</button>
+          <button type="submit" class="button button--red popup__form-button">Отправить</button>
       </form>
   </div>
 </div>
