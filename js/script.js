@@ -24,6 +24,30 @@ $(document).ready(function() {
 			$('.popup__form').fadeOut(400);
 		}
   });
+
+  $('form').each(function () {
+    $(this).validate({
+      errorPlacement(error, element) {
+        return true;
+      },
+      submitHandler(form) {
+      let th = $(form);
+
+      $.ajax({
+      type: 'POST',
+      url: 'mail.php',
+      data: th.serialize(),
+      // eslint-disable-next-line func-names
+    }).done(() => {
+
+      th.trigger('reset');
+    });
+
+    return false;
+    }
+  });
+  });
+
 });
 
 // Слайдер
