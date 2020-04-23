@@ -13,6 +13,7 @@
 
   <script src="https://kit.fontawesome.com/8a6db0bcf4.js" defer></script>
   <script src="js/jquery-3.4.1.min.js" defer></script>
+  <script src="js/jquery.validate.min.js" defer></script>
   <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
   <script src="js/script.js" defer></script>
 
@@ -167,6 +168,9 @@
   <div class="popup__form">
     <h2 class="popup__title">Заполните форму</h2>
       <form>
+        <input type="hidden" name="project_name" value="тест">
+        <input type="hidden" name="admin_email" value="r.obada@mail.ru">
+        <input type="hidden" name="form_subject" value="тема письма">
         <label class="popup__label">Введите имя
           <input class="popup__input-field" type="text" name="username" required="required">
         </label>
