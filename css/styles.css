@@ -217,7 +217,7 @@ li {
   /* line-height: 1; */
 }
 
-.menu__link:hover,:focus {
+.menu__link:hover, .menu__link:focus {
   color: #fc557c;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -328,7 +328,7 @@ li {
   transition: background-color 0.15s;
 }
 
-.button--red:hover,:focus {
+.button--red:hover, .button--red:focus {
   color: #ff4e2e;
   background-color: #fff;
   border: 1px solid #ff4e2e;
@@ -848,7 +848,7 @@ li {
   font-size: 18px;
 }
 
-.footer__link:hover,:focus {
+.footer__link:hover, .footer__link:focus {
   color: #505665;
   -webkit-transition: color 0.3s ease-in-out;
   -o-transition: color 0.3s ease-in-out;
