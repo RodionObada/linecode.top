@@ -254,6 +254,15 @@ li {
   font-weight: 700;
 }
 
+.header__tel:hover, .header__tel:focus {
+  color: #8993ad;
+  transition: color 0.1s ease-in-out;
+  -webkit-transition: color 0.1s ease-in-out;
+  -moz-transition: color 0.1s ease-in-out;
+  -ms-transition: color 0.1s ease-in-out;
+  -o-transition: color 0.1s ease-in-out;
+}
+
 .button {
   outline: none;
   cursor: pointer;
@@ -653,6 +662,7 @@ li {
 }
 
 .slider__description {
+  display: block;
   text-align: center;
   color: #8993ad;
   font-size: 20px;
@@ -867,6 +877,16 @@ li {
 .contacts__link {
   font-size: 25px;
   font-weight: 400;
+}
+
+.contacts__link:hover,
+.contacts__link:focus {
+  color: #8993ad;
+  transform: color 0.3 ease-in-out;
+  -webkit-transform: color 0.3 ease-in-out;
+  -moz-transform: color 0.3 ease-in-out;
+  -ms-transform: color 0.3 ease-in-out;
+  -o-transform: color 0.3 ease-in-out;
 }
 
 .footer__contacts .contacts__item:first-child {
