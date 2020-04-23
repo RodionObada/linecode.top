@@ -913,10 +913,23 @@ li {
   margin-right: 20px;
 }
 
-.social-icons__link{
+.social-icons__link {
   display: block;
   height: 28px;
   width: 35px;
+}
+
+.social-icons__link:hover, .social-icons__link:focus {
+  transform: scale(1.1);
+  transition: transform 0.1s ease-in-out ;
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -webkit-transition: transform 0.1s ease-in-out ;
+  -moz-transition: transform 0.1s ease-in-out ;
+  -ms-transition: transform 0.1s ease-in-out ;
+  -o-transition: transform 0.1s ease-in-out ;
 }
 
 .social-icons__link--vk {
