@@ -132,9 +132,10 @@ li {
 
 .popup__input-field {
   width: 100%;
+  height: 40px;
+  padding-left: 15px;
   border: none;
   background-color: #E8F0FE;
-  height: 40px;
   font-weight: 400;
   outline: none;
 }
@@ -1367,6 +1368,11 @@ li {
     margin-top: 40px;
   }
 
+  .header__contact .button--transparent:hover,
+  .header__contact .button--transparent:focus {
+    background: url("../img/icons/call-icons.png") no-repeat center;
+  }
+
   .header__button--icon {
     font-size: 0;
     width: 26px;
@@ -1375,6 +1381,8 @@ li {
     outline: none;
     background: url("../img/icons/call-icons.png") no-repeat center;
   }
+
+
 
   .header__tel {
     margin-right: 110px;
