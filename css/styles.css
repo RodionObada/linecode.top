@@ -111,12 +111,6 @@ li {
           box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-@media (max-width: 480px) {
-  .popup__form {
-    max-width: 90%;
-  }
-}
-
 .popup__title {
   margin-top: 0;
   font-size: 20px;
@@ -301,15 +295,15 @@ li {
 
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1024.1px) {
   .hero {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-            min-height: 350px;
+    -ms-flex-align: center;
+    align-items: center;
+    min-height: 350px;
     height: calc(100vh - 103px);
     max-height: 1140px;
   }
@@ -368,13 +362,13 @@ li {
 .photo-wrapper {
   position: absolute;
   z-index: -1;
-  right: -489px;
+  right: -500px;
   bottom: 0;
   height: 100%;
   max-height: 683px;
   min-height: 300px;
   width: 100%;
-  background: url("../img/ellipsnewbig.svg") no-repeat left 200px bottom -100px;
+  background: url("../img/ellipsnewbig.svg") no-repeat left 226px bottom -136px;
   background-size: contain;
 }
 
@@ -632,6 +626,10 @@ li {
   margin-bottom: 97px;
 }
 
+.slider__container {
+  width: 100%;
+}
+
 .slider__list {
   margin: 0;
   padding: 0;
@@ -652,18 +650,18 @@ li {
 }
 
 .slider__button {
-          position: absolute;
-          top: 50%;
-          width: 61px;
-          height: 61px;
-          outline: none;
-          border-radius: 50%;
-          border: none;
-          cursor: pointer;
-          background: url('../img/icons/arrow.png') no-repeat center;
-          background-size: contain;
-          -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 50%;
+  width: 61px;
+  height: 61px;
+  outline: none;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background: url('../img/icons/arrow.png') no-repeat center;
+  background-size: contain;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 .slider__button:hover,
@@ -1011,9 +1009,22 @@ li {
   .skills__item {
     margin-bottom: 65px;
   }
+
+  .photo-wrapper {
+    right: -300px;
+    background: url("../img/ellipsnewbig.svg") no-repeat left 226px bottom -136px;
+  }
 }
 
 @media (max-width: 1024px) {
+  .slider {
+    margin-bottom: 100px;
+  }
+
+  .slider__pagination {
+    margin-top: 102px;
+  }
+
   .fly-elements--active .fly-elements__item--1 {
       -webkit-transform: translate(-435px, 190px) rotate(30deg);
           -ms-transform: translate(-435px, 190px) rotate(30deg);
@@ -1095,7 +1106,7 @@ li {
   }
 
   .hero {
-    height: 500px;
+    height: 664px;
   }
 
   .hero__info {
@@ -1130,13 +1141,14 @@ li {
   }
 
   .photo-wrapper {
-    right: -480px;
-    background-position: bottom -100px right 350px;
+    right: -470px;
+    background-position: bottom -100px left 0;
     z-index: -150;
   }
 
   .photo {
-    left: 134px;
+    height: 95%;
+    left: 85px;
   }
 
   .footer__contacts {
@@ -1184,26 +1196,6 @@ li {
 
   .price .fly-elements--active .fly-elements__item--5 {
     display: none;
-  }
-}
-
-@media (max-width: 930px) {
-  .photo-wrapper {
-    right: -175px;
-    background-position: bottom -100px right -90px;
-    background-size: auto auto;
-  }
-
-  .photo {
-    left: 300px;
-  }
-
-  .h--1 {
-    font-size: 41px;
-  }
-
-  .hero__subtitle {
-    font-size: 21px;
   }
 }
 
@@ -1264,11 +1256,12 @@ li {
     position: relative;
     height: 500px;
     width: 130%;
-    left: -100px;
-    background-position: right -70px bottom -100px;
+    left: -40px;
+    background-position: center bottom -100px;
   }
 
   .photo {
+    left: 220px;
     height: 95%;
   }
 
@@ -1286,7 +1279,12 @@ li {
   }
 
   .h--1 {
+    font-size: 41px;
     margin-top: 0;
+  }
+
+  .hero__subtitle {
+    font-size: 21px;
   }
 
   .hero__button {
@@ -1447,7 +1445,7 @@ li {
   }
 
   .header__tel {
-    margin-right: 65px;
+    margin-right: 35px;
   }
 
   .photo-wrapper {
@@ -1507,10 +1505,9 @@ li {
   .header__contact {
     z-index: 2000;
   }
-}
-@media (max-width: 370px) {
-  .header__tel {
-    margin-right: 35px;
+
+  .popup__form {
+    max-width: 90%;
   }
 }
 
@@ -1722,13 +1719,13 @@ li {
   }
 }
 
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
   .slider {
     margin-bottom: 100px;
   }
-}
+} */
 
-@media (max-width: 767.9px) {
+@media (max-width: 768px) {
   .slider__container {
     max-width: 400px;
   }
@@ -1744,20 +1741,11 @@ li {
   }
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .slider__container {
     width: 708px;
   }
-}
-
-@media (min-width: 1000px) {
-  .slider__container {
-    width: 100%;
-  }
-  .slider__pagination {
-    margin-top: 102px;
-  }
-}
+} */
 
 /* slider */
 @media (max-width: 1240px) {
