@@ -1,28 +1,28 @@
-$(document).ready(function() {
+$(document).ready(function () {
 
   $('.fly-elements').addClass('fly-elements--active');
 
-// Выпадающее меню
-  $('.header__burger-menu').click(function(e) {
-		e.preventDefault();
-		$(this).toggleClass('header__burger-menu--close');
+  // Выпадающее меню
+  $('.header__burger-menu').click(function (e) {
+    e.preventDefault();
+    $(this).toggleClass('header__burger-menu--close');
 
-		$('.menu').toggle(200);
+    $('.menu').toggle(200);
   });
 
-// Поп ап
-  $('.popup__button').click(function() {
+  // Поп ап
+  $('.popup__button').click(function () {
     $('html').addClass('scroll-off');
-		$('.popup').fadeIn(400);
-		$('.popup__form').fadeIn(400);
-	});
+    $('.popup').fadeIn(400);
+    $('.popup__form').fadeIn(400);
+  });
 
-	$('.popup').click(function(event) {
-		if(event.target == this) {
+  $('.popup').click(function (event) {
+    if (event.target == this) {
       $('html').removeClass('scroll-off');
-			$(this).fadeOut(400);
-			$('.popup__form').fadeOut(400);
-		}
+      $(this).fadeOut(400);
+      $('.popup__form').fadeOut(400);
+    }
   });
 
   $('form').each(function () {
@@ -31,23 +31,23 @@ $(document).ready(function() {
         return true;
       },
       submitHandler(form) {
-      let th = $(form);
+        let th = $(form);
 
-      $.ajax({
-      type: 'POST',
-      url: 'mail.php',
-      data: th.serialize(),
-      // eslint-disable-next-line func-names
-    }).done(() => {
+        $.ajax({
+          type: 'POST',
+          url: 'mail.php',
+          data: th.serialize(),
+          // eslint-disable-next-line func-names
+        }).done(() => {
 
-      console.log('Отправлено');
+          console.log('Отправлено');
 
-      th.trigger('reset');
+          th.trigger('reset');
+        });
+
+        return false;
+      }
     });
-
-    return false;
-    }
-  });
   });
 
 });
@@ -57,7 +57,7 @@ new Swiper('.slider', {
   slidesPerView: 1,
   spaceBetween: 20,
   breakpoints: {
-    768: {
+    769: {
       slidesPerView: 2,
       spaceBetween: 35,
     },
