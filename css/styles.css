@@ -914,16 +914,16 @@ li {
   margin-bottom: 32px;
 }
 
-.social__menu {
+.subscribe__social {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   max-width: 248px;
 }
 
-.social__button {
+.subscribe__button {
   font-size: 17px;
   font-weight: 400;
   margin-bottom: 35px;
@@ -1472,7 +1472,7 @@ li {
     padding-top: 50px;;
   }
 
-  .social__button {
+  .subscribe__button {
     width: 280px;
     height: 55px;
     margin-bottom: 50px;
