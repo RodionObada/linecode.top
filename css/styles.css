@@ -1004,7 +1004,7 @@ li {
 
   .photo-wrapper {
     right: -300px;
-    background: url("../img/ellipsnewbig.svg") no-repeat left 226px bottom -136px;
+    background-position: left 226px bottom -136px;
   }
 }
 
