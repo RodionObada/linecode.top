@@ -1110,6 +1110,10 @@ li {
     padding-bottom: 105px;
   }
 
+  .skills__list {
+    max-width: 660px;
+  }
+
   .h--1 {
     color: #1f1f24;
     font-size: 54px;
@@ -1381,8 +1385,6 @@ li {
     outline: none;
     background: url("../img/icons/call-icons.png") no-repeat center;
   }
-
-
 
   .header__tel {
     margin-right: 110px;
