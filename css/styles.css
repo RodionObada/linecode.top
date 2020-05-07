@@ -914,7 +914,7 @@ li {
   margin-bottom: 32px;
 }
 
-.social-icons {
+.social__menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -923,7 +923,7 @@ li {
   max-width: 248px;
 }
 
-.social-icons__button {
+.social__button {
   font-size: 17px;
   font-weight: 400;
   margin-bottom: 35px;
@@ -951,17 +951,17 @@ li {
   -webkit-text-fill-color: transparent;
 }
 
-.social-icons__item:not(:last-child) {
+.social__item:not(:last-child) {
   margin-right: 20px;
 }
 
-.social-icons__link {
+.social__link {
   display: block;
   height: 28px;
   width: 35px;
 }
 
-.social-icons__link:hover, .social-icons__link:focus {
+.social__link:hover, .social__link:focus {
   transform: scale(1.1);
   transition: transform 0.2s ease-in-out ;
   -webkit-transform: scale(1.1);
@@ -974,16 +974,16 @@ li {
   -o-transition: transform 0.2s ease-in-out ;
 }
 
-.social-icons__link--vk {
+.social__link--vk {
   background: url("../img/sprites.png") no-repeat center left -6px;
 }
-.social-icons__link--facebook {
+.social__link--facebook {
   background: url("../img/sprites.png") no-repeat center left -55px;
 }
-.social-icons__link--twitter {
+.social__link--twitter {
   background: url("../img/sprites.png") no-repeat center left -105px;
 }
-.social-icons__link--instagram {
+.social__link--instagram {
   background: url("../img/sprites.png") no-repeat center left -156px;
 }
 
@@ -1153,10 +1153,6 @@ li {
 
   .footer {
     padding-top: 100px;
-  }
-
-  .footer__social {
-    margin-right: 0;
   }
 
   .slider__description {
@@ -1476,11 +1472,7 @@ li {
     padding-top: 50px;;
   }
 
-  .footer__social {
-    max-width: 100%;
-  }
-
-  .social-icons__button {
+  .social__button {
     width: 280px;
     height: 55px;
     margin-bottom: 50px;
