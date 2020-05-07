@@ -1731,10 +1731,6 @@ li {
   .fas {
     font-size: 14px;
   }
-
-  br {
-    display: none;
-  }
 }
 
 @media (max-width: 768px) {
