@@ -1137,14 +1137,14 @@ li {
   }
 
   .photo-wrapper {
-    right: -470px;
-    background-position: bottom -100px left 0;
+    right: -397px;
+    background-position: bottom -100px left 34%;
     z-index: -150;
   }
 
   .photo {
-    height: 95%;
-    left: 85px;
+    height: 635px;
+    left: 15.4%;
   }
 
   .footer__contacts {
@@ -1445,13 +1445,12 @@ li {
   }
 
   .header__tel {
-    margin-right: 35px;
+    margin-right: 25px;
   }
 
   .photo-wrapper {
-    height: 384px;
-    background-position: bottom -100px right 0px;
-    background-size: auto 450px;
+    height: 385px;
+    background-size: 458px;
   }
 
   .photo {
@@ -1607,12 +1606,7 @@ li {
   }
 
   .photo-wrapper {
-    height: 385px;
-    top: 0;
-    right: 0;
     background-position: bottom -81px right -61px;
-    background-size: 458px;
-    padding-top: 124px;
     padding-left: 0;
   }
 
