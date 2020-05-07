@@ -590,7 +590,7 @@ li {
   background-color: #fbfbfb;
 }
 
-.portfolio__box {
+.portfolio__wrapper {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -606,7 +606,7 @@ li {
   padding-top: 92px;
 }
 
-.portfolio__box h2 {
+.portfolio__wrapper h2 {
   margin-bottom: 102px;
 }
 
@@ -1124,11 +1124,11 @@ li {
     margin-bottom: 46px;
   }
 
-  .portfolio__box {
+  .portfolio__wrapper {
     margin-bottom: 101px;
   }
 
-  .portfolio__box h2 {
+  .portfolio__wrapper h2 {
     margin-bottom: 99px;
 }
 
@@ -1298,7 +1298,7 @@ li {
     padding-top: 50px;;
   }
 
-  .portfolio__box h2 {
+  .portfolio__wrapper h2 {
     margin-bottom: 42px;
   }
 
@@ -1677,7 +1677,7 @@ li {
     padding: 40px 20px 42px 20px;
   }
 
-  .portfolio__box {
+  .portfolio__wrapper {
     padding-top: 44px;
     margin-bottom: 51px;
   }
