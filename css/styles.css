@@ -1373,7 +1373,7 @@ li {
     background: url("../img/icons/call-icons.png") no-repeat center;
   }
 
-  .header__button--icon {
+  .header__button {
     font-size: 0;
     width: 26px;
     height: 26px;
