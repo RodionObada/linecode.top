@@ -40,7 +40,7 @@ $(document).ready(function () {
           // eslint-disable-next-line func-names
         }).done(() => {
 
-          console.log('Отправлено');
+          alert('Отправлено');
 
           th.trigger('reset');
         });
