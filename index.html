@@ -10,14 +10,14 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
 
-  <link rel="stylesheet" href="css/styles.min.css"/>
+  <link rel="stylesheet" href="css/styles.css"/>
 
   <script src="https://kit.fontawesome.com/8a6db0bcf4.js" defer></script>
   <script src="js/jquery-3.4.1.min.js" defer></script>
   <script src="js/jquery.validate.min.js" defer></script>
   <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
 
-  <script src="js/script.min.js" defer></script>
+  <script src="js/script.js" defer></script>
 
 </head>
 <body>
@@ -162,22 +162,23 @@
     <p class="footer__copyright">&copy; Человек фронтендер, 2018 – 2019</p>
   </footer>
   <div class="popup">
-    <div class="popup__form">
+    <div class="popup__container">
       <h2 class="popup__title">Заполните форму</h2>
-        <form>
+        <p class="popup__sent">Заявка успешно отправлена!</p>
+        <form class="popup__form">
           <input type="hidden" name="project_name" value="тест">
           <input type="hidden" name="admin_email" value="rodionobada@gmail.com">
           <input type="hidden" name="form_subject" value="тема письма">
           <label class="popup__label">Введите имя
-            <input class="popup__input-field" type="text" name="username" required="required">
+            <input class="popup__input-field" type="text" name="username" required>
           </label>
           <label class="popup__label">Телефон
-            <input class="popup__input-field" type="tel" name="phone" placeholder="+7 (___) ___-__-__" required="required">
+            <input class="popup__input-field" type="tel" name="phone" placeholder="+7 (___) ___-__-__" required>
           </label>
           <label class="popup__label">Электронная почта
-            <input class="popup__input-field" type="email" name="mail" required="required">
+            <input class="popup__input-field" type="email" name="mail" required>
           </label>
-            <button type="submit" class="button button--red popup__form-button">Отправить</button>
+            <button type="submit" class="button popup__form-button">Отправить</button>
         </form>
     </div>
   </div>
