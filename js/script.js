@@ -38,11 +38,13 @@ $(document).ready(function () {
           url: 'mail.php',
           data: th.serialize(),
           // eslint-disable-next-line func-names
-        }).done(() => {
-
-          alert('Отправлено');
-
-          th.trigger('reset');
+        }).done(function() {
+          $('.popup__sent').fadeIn(100);
+          $('.popup__form').fadeOut(100);
+            th.trigger('reset');
+            setTimeout(function(){
+              $('.popup__sent').fadeOut(300);
+            }, 5000);
         });
 
         return false;
