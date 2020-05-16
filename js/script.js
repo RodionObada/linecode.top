@@ -11,7 +11,7 @@ $(document).ready(function () {
   });
 
   // Поп ап
-  $('.popup__button').click(function () {
+  $('.js-popup').click(function () {
     $('html').addClass('scroll-off');
     $('.popup').fadeIn(400);
     $('.popup__form').fadeIn(400);
