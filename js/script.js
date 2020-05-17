@@ -41,10 +41,14 @@ $(document).ready(function () {
         }).done(function() {
           $('.popup__sent').fadeIn(100);
           $('.popup__form').fadeOut(100);
+          $('.popup__title').text('Спасибо!');
             th.trigger('reset');
             setTimeout(function(){
               $('.popup__sent').fadeOut(300);
             }, 5000);
+            setTimeout(function(){
+              $('.popup__title').text('Заполните форму');
+            }, 10000);
         });
 
         return false;
