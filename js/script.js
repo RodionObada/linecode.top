@@ -7,7 +7,7 @@ $(document).ready(function () {
     e.preventDefault();
     $(this).toggleClass('header__burger-menu--close');
 
-    $('.menu').toggle(200);
+    $('.menu').toggle(300);
   });
 
   // Поп ап
