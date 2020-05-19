@@ -232,10 +232,12 @@ background-color: #FFE7E7;
 
 .menu__link {
   position: relative;
-  line-height: 1;
 }
 
-.menu__link:hover, .menu__link:focus {
+.menu__link:hover,
+.menu__link:focus,
+.footer__link:hover,
+.footer__link:focus {
   color: #fc557c;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -244,7 +246,8 @@ background-color: #FFE7E7;
   -ms-transition: all 0.3s ease-in-out;
 }
 
-.menu__link:after {
+.menu__link:after,
+.footer__link:after {
   display: block;
   position: absolute;
   left: 0;
@@ -260,7 +263,9 @@ background-color: #FFE7E7;
 }
 
 .menu__link:hover:after,
-.menu__link:focus:after {
+.menu__link:focus:after,
+.footer__link:hover:after,
+.footer__link:focus:after {
   width: 100%;
 }
 /* конец блока для меню */
@@ -282,12 +287,12 @@ background-color: #FFE7E7;
 
 .header__tel:hover,
 .header__tel:focus {
-  color: #8993ad;
-  transition: color 0.2s ease-in-out;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
+  color: #fc557c;
+  transition: color 0.3s ease-in-out;
+  -webkit-transition: color 0.3s ease-in-out;
+  -moz-transition: color 0.3s ease-in-out;
+  -ms-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
 }
 
 .button {
@@ -297,20 +302,20 @@ background-color: #FFE7E7;
 
 .button--transparent {
   color: #f53f4f;
-  background-color: transparent;
+  background: transparent;
   border: 1px solid #f82370;
 }
 
 .button--transparent:hover,
 .button--transparent:focus {
-  color: #FFF;
-  background: linear-gradient(to right top, #ff8f5a, #ff2f96);
+  color: #fff;
+  background: #fc557c;
   border: none;
-  transition: all 0.2s ease-in-out;
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -ms-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.3s ;
+  -webkit-transition: all 0.3s ;
+  -moz-transition: all 0.3s ;
+  -ms-transition: all 0.3s ;
+  -o-transition: all 0.3s ;
 }
 
 .header__button {
@@ -900,21 +905,19 @@ background-color: #FFE7E7;
   padding-bottom: 77px;
 }
 
+
 .footer__link {
+  position: relative;
   color: #8993ad;
   font-weight: 400;
-  line-height: 33px;
   font-size: 18px;
 }
 
-.footer__link:hover, .footer__link:focus {
-  color: #505665;
-  -webkit-transition: color 0.3s ease-in-out;
-  -o-transition: color 0.3s ease-in-out;
-  transition: color 0.3s ease-in-out;
-}
-
 .footer__menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 85px;
   margin-right: 85px;
 }
 
@@ -929,12 +932,12 @@ background-color: #FFE7E7;
 
 .contacts__link:hover,
 .contacts__link:focus {
-  color: #8993ad;
-  transform: color 0.3s ease-in-out;
-  -webkit-transform: color 0.3s ease-in-out;
-  -moz-transform: color 0.3s ease-in-out;
-  -ms-transform: color 0.3s ease-in-out;
-  -o-transform: color 0.3s ease-in-out;
+  color: #fc557c;
+  transition: color 0.3s ease-in-out;
+  -webkit-transition: color 0.3s ease-in-out;
+  -moz-transition: color 0.3s ease-in-out;
+  -ms-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
 }
 
 .footer__contacts .contacts__item:first-child {
