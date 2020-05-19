@@ -232,27 +232,36 @@ background-color: #FFE7E7;
 
 .menu__link {
   position: relative;
-  /* line-height: 1; */
+  line-height: 1;
 }
 
 .menu__link:hover, .menu__link:focus {
   color: #fc557c;
-  -webkit-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
 }
 
-.menu__link:hover:after {
-  background-color: #fc557c;
+.menu__link:after {
   display: block;
-  content: "";
-  height: 2px;
-  width: 100%;
   position: absolute;
-  -webkit-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
-          transform: translateX(-50%);
-  left: 50%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #fc557c;
+  content: "";
+  transition: width 0.3s ease-in-out;
+  -webkit-transition: width 0.3s ease-in-out;
+  -moz-transition: width 0.3s ease-in-out;
+  -ms-transition: width 0.3s ease-in-out;
+  -o-transition: width 0.3s ease-in-out;
+}
+
+.menu__link:hover:after,
+.menu__link:focus:after {
+  width: 100%;
 }
 /* конец блока для меню */
 .header__contact {
