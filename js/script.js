@@ -7,7 +7,7 @@ $(document).ready(function () {
     e.preventDefault();
     $(this).toggleClass('header__burger-menu--close');
 
-    $('.menu').toggle(300);
+    $('.menu').toggle(200);
   });
 
   // Поп ап
@@ -42,13 +42,17 @@ $(document).ready(function () {
           $('.popup__sent').fadeIn(100);
           $('.popup__form').fadeOut(100);
           $('.popup__title').text('Спасибо!');
-            th.trigger('reset');
+            
+            setTimeout(function(){
+              $('.popup').fadeOut(300);
+            }, 3000);
             setTimeout(function(){
               $('.popup__sent').fadeOut(300);
-            }, 5000);
+            }, 3000);
             setTimeout(function(){
               $('.popup__title').text('Заполните форму');
-            }, 10000);
+            }, 3500);
+            th.trigger('reset');
         });
 
         return false;
