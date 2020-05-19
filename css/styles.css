@@ -362,9 +362,6 @@ background-color: #FFE7E7;
   height: 60px;
   width: 270px;
   cursor: pointer;
-  -webkit-transition: background-color 0.15s;
-  -o-transition: background-color 0.15s;
-  transition: background-color 0.15s;
 }
 
 .button--red:hover,
@@ -374,11 +371,11 @@ background-color: #FFE7E7;
   border: 1px solid #ff4e2e;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  transition: all 0.2s ease-in-out;
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -ms-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
 }
 
 .photo-wrapper {
@@ -684,18 +681,17 @@ background-color: #FFE7E7;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
-.slider__button:hover,
-.slider__button:focus {
+.slider__button:hover {
   transform: scale(1.2);
-  transition: transform 0.2s ease-in-out;
+  transition: transform 0.3s ease-in-out;
   -webkit-transform: scale(1.2);
   -moz-transform: scale(1.2);
   -ms-transform: scale(1.2);
   -o-transform: scale(1.2);
-  -webkit-transition: transform 0.2s ease-in-out;
-  -moz-transition: transform 0.2s ease-in-out;
-  -ms-transition: transform 0.2s ease-in-out;
-  -o-transition: transform 0.2s ease-in-out;
+  -webkit-transition: transform 0.3s ease-in-out;
+  -moz-transition: transform 0.3s ease-in-out;
+  -ms-transition: transform 0.3s ease-in-out;
+  -o-transition: transform 0.3s ease-in-out;
 }
 
 .slider__button--next {
@@ -1089,13 +1085,15 @@ background-color: #FFE7E7;
 
   .menu__list {
     position: absolute;
+    text-align: center;
     z-index: 999;
-    left: 100px;
-    top: 30px;
+    left: 23px;
+    top: 24px;
+    padding: 5px 0;
     background-color: white;
-    width: 250px;
+    width: 300px;
     -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
     border-radius: 4px;
   }
 
@@ -1409,8 +1407,8 @@ background-color: #FFE7E7;
   }
 
   .menu__list {
-    width: 180px;
-    left: 65px;
+    top: 12px;
+    left: 5px;
   }
 
   .paginator__item:not(:last-child) {
