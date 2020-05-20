@@ -42,7 +42,7 @@ $(document).ready(function () {
           $('.popup__sent').fadeIn(100);
           $('.popup__form').fadeOut(100);
           $('.popup__title').text('Спасибо!');
-            
+
             setTimeout(function(){
               $('.popup').fadeOut(300);
             }, 3000);
@@ -59,7 +59,7 @@ $(document).ready(function () {
       }
     });
   });
-
+  $('input[type="tel"]').inputmask({"mask": "+7(999) 999-9999"});
 });
 
 // Слайдер
@@ -94,6 +94,6 @@ new Swiper('.slider', {
   navigation: {
     nextEl: '.slider__button--next',
     prevEl: '.slider__button--prev',
-  },
+  }
 });
 
