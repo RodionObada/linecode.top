@@ -21,7 +21,11 @@ $(document).ready(function () {
     if (event.target == this) {
       $('html').removeClass('scroll-off');
       $(this).fadeOut(400);
-      $('.popup__form').fadeOut(400);
+      $('.popup').fadeOut(400);
+      $('.popup__sent').fadeOut(400);
+      setTimeout(function(){
+        $('.popup__title').text('Заполните форму');
+      }, 700);
     }
   });
 
@@ -39,22 +43,11 @@ $(document).ready(function () {
           data: th.serialize(),
           // eslint-disable-next-line func-names
         }).done(function() {
-          $('.popup__sent').fadeIn(100);
-          $('.popup__form').fadeOut(100);
+          $('.popup__sent').fadeIn(300);
+          $('.popup__form').fadeOut(300);
           $('.popup__title').text('Спасибо!');
-
-            setTimeout(function(){
-              $('.popup').fadeOut(300);
-            }, 3000);
-            setTimeout(function(){
-              $('.popup__sent').fadeOut(300);
-            }, 3000);
-            setTimeout(function(){
-              $('.popup__title').text('Заполните форму');
-            }, 3500);
             th.trigger('reset');
         });
-
         return false;
       }
     });
