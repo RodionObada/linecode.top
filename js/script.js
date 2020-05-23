@@ -17,6 +17,15 @@ $(document).ready(function () {
     $('.popup__form').fadeIn(400);
   });
 
+  $('.popup__close').click(function () {
+    $('html').removeClass('scroll-off');
+      $('.popup').fadeOut(400);
+      $('.popup__sent').fadeOut(400);
+      setTimeout(function(){
+        $('.popup__title').text('Заполните форму');
+      }, 700);
+  });
+
   $('.popup').click(function (event) {
     if (event.target == this) {
       $('html').removeClass('scroll-off');
