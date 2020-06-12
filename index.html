@@ -2,23 +2,18 @@
 <html lang="ru">
 <head>
   <title>Дипломный проект</title>
-
   <meta charset="utf-8" />
   <meta name="keywords" content="Вёрстка, разработка сайтов">
   <meta name="description" content="Сайт разработчика">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-
   <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
-
   <link rel="stylesheet" href="css/styles.min.css"/>
-
   <script src="https://kit.fontawesome.com/8a6db0bcf4.js" defer></script>
   <script src="js/jquery-3.4.1.min.js" defer></script>
   <script src="js/jquery.validate.min.js" defer></script>
-  <script src="https://unpkg.com/swiper/js/swiper.min.js" defer></script>
+  <script src="js/swiper.min.js" defer></script>
   <script src="js/jquery.inputmask.min.js" defer></script>
   <script src="js/script.min.js" defer></script>
-
 </head>
 <body>
   <header class="header">
@@ -126,7 +121,7 @@
       <span class="fly-elements__item fly-elements__item--5">{ }</span>
     </div>
     <div class="price__container container">
-    <h3 class="price__title">Адаптивная вёрстка под все устройства и браузеры от 1000 рублей всего за 4 часа.*
+    <h3 class="price__title">Адаптивная вёрстка под все устройства <br> и браузеры от 1000 рублей всего за 4 часа.*
     </h3>
     <p class="price__desc">* Срок и стоимость могут отличаться от заявленных и рассчитываются индивидуально, в зависимости от сложности задач.
     </p>
@@ -171,13 +166,13 @@
           <input type="hidden" name="admin_email" value="rodionobada@gmail.com">
           <input type="hidden" name="form_subject" value="Заявка на обратный звонок">
           <label class="popup__label">Введите имя
-            <input class="popup__input-field" type="text" name="username" required>
+            <input class="popup__input-field" type="text" name="name" required>
           </label>
           <label class="popup__label">Телефон
             <input class="popup__input-field" type="tel" name="phone" placeholder="+7(___) ___-____" required>
           </label>
           <label class="popup__label">Электронная почта
-            <input class="popup__input-field" type="email" name="mail" required>
+            <input class="popup__input-field" type="email" name="email" required>
           </label>
             <button type="submit" class="button popup__form-button">Отправить</button>
         </form>
